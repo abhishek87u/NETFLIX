@@ -1,0 +1,387 @@
+/* format str */
+
+*{
+    margin: 0 0px;
+    padding: 0px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+body{
+    background-color: black;
+    height: 500vh;
+}
+
+.logo{
+    position: relative;
+    width: 9.70rem;
+    height: 2.8rem;
+    top: 27px;
+    left: 47px;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    position: absolute;
+    top: -4px;
+}
+
+.butons{
+    position: relative;
+    right: 15px;
+    top: 28px;
+    width: 20%;
+    display: flex;
+    height: 61px;
+    gap: 12px;
+
+    
+}
+.language,.sigin{
+    width: 50%;
+    border-radius: 22px;
+    height: 60%;
+    
+
+}
+.sigin{
+    background-color: white;
+    color: black;
+    width: 27%;
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+
+.language{
+    background-color: transparent;
+    border: solid 0.px white;
+    color: white;
+    text-align: center;
+    width: 47%;
+    font-size: 15px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+/* Styling for the email section */
+.uinput {
+    margin-top: 50px; 
+    text-align: center; 
+}
+
+/*  field and button */
+.uinput .email {
+    width: 300px; 
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+
+.uinput .gets {
+    padding: 10px 20px;
+    background-color: #e50914; 
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Set the width and height of the video */
+video {
+    width: 100%; 
+    height: 500px; 
+    object-fit: cover; 
+    border: 5px solid #ffffff; 
+    border-radius: 10px; 
+    display: block; 
+}
+
+
+
+/* Position video container */
+.bg.video {
+    position: relative; }
+
+/* Styling the video text */
+.video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center;
+  padding: 15px;
+    
+}
+
+
+/*  border to the video */
+video {
+    border: 3px solid #ffffff; 
+    border-radius: 10px; 
+    width: 100%; 
+    height: 30%; 
+    display: block; 
+}
+
+
+
+
+/*  hover effect only to images */
+img {
+    transition: transform 0.3s ease;
+}
+
+/* zoom hover */
+img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.vibox{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.vdeo{
+    position: relative;
+    left: 33px;
+    border-radius: 25px;
+}
+.uinput{
+    display: flex;   
+    justify-content: center;
+    gap: 13px;
+    margin-bottom: 2rem;
+}
+.gets{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    width: 15%;
+    padding: 0.5rem 0.5rem 0.5rem;
+    height: 58px;
+    border: none;
+    line-height: 1.5;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    }
+.email{
+    color: rgb(255, 255, 255);
+    border-radius: 35px;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 35.5%;
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+    height: 38px;
+    border: solid 1px rgba(255, 255, 255, 0.438);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background: rgba(255, 255, 255, 0.1);
+}
+.wrap{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    color: rgb(255, 255, 255);
+    width: 80%;
+}
+.tn h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.series{
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    
+}
+.series img{
+    border-radius: 20px;
+    width: 17%;
+    
+
+}
+.onn h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.tn,.onn{
+    margin-bottom: 3rem;
+    color: rgb(255, 255, 255);
+    
+}
+.retojoin{
+    backdrop-filter: blur(12px);
+    margin-bottom: 3rem;
+    
+}
+.retojoin h2,.faq h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.reasons{
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+
+    
+}
+
+.taste,.plans,.kids,.devices{
+    width: 25%;
+    border-radius: 15px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.875rem 1rem 4.5rem 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.04);
+}
+
+
+
+.series::-webkit-scrollbar {
+    display: none;
+}
+
+
+.series{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.faq{
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.q{
+    border: 2px solid rgba(255, 255, 255, 0.04);
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.q:hover{
+    transition-timing-function: cubic-bezier(0.32,0.94,0.6,1);
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+.ges{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.getst{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    width: 14%;
+    height: 43px;
+    border-radius: 24px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+
+}
+.getst:hover,.gets:hover{
+    cursor: pointer;
+    background: rgb(193, 17, 25);
+}
+
+footer{
+    color: rgb(255, 255, 255);
+}
+.questions{
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 3rem;
+}
+a{
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 4rem;
+}
+
+.folang{
+    width: 12%;
+    height: 32px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 3rem;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+option{
+    color: black;
+}
